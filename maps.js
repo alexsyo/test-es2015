@@ -33,4 +33,5 @@ for(let unitAlive of isAlive2) {
     console.log(unitAlive[0]);
     console.log(isAlive2.has(unitAlive[0]));
     console.log(isAlive2.get(unitAlive[0]));
+    console.log(isAlive2.delete(unitAlive[0]));
 }
