@@ -32,7 +32,14 @@ let buildObj2 = (a, b) => {
 }
 
 let abc2 = buildObj2(3,4);
+let add2 = {
+    a: 999,
+    d: 888
+};
 
-console.log(abc2.a);
-console.log(abc2.b);
-console.log(abc2.c());
+let abcd2 = Object.assign({}, abc2, add2);
+
+console.log(abcd2.a);
+console.log(abcd2.b);
+console.log(abcd2.c());
+console.log(abcd2.d);
