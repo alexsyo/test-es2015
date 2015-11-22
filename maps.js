@@ -30,6 +30,7 @@ isAlive2.set(unit2_2, false);
 isAlive2.set(unit2_3, true);
 
 for(let unitAlive of isAlive2) {
+    console.log(isAlive2.size);
     console.log(unitAlive[0]);
     console.log(isAlive2.has(unitAlive[0]));
     console.log(isAlive2.get(unitAlive[0]));
